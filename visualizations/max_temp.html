@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Vizualization Dashboard </title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+                                          
+                                       <!-- Vizualization Pages -->
+                                        <!-- Page 1/4, Max Temp -->
+                                               <!-- Navbar -->
+
+<body>
+  
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href="index.html" id="logo">Lattitude</a>
+          </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               <li><a href="max_temp.html">Max Temperature</a></li>
+                <li><a href="humidity.html">Humidity</a></li>
+                <li><a href="cloudiness.html">Cloudiness</a></li>
+                <li><a href="wind_speed.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Summary Section -->
+
+        <div class="container">
+          <section class="row">
+            <div class="col-md-8">
+              <article class="description-content">
+                <h1 class="description-header">Max Temperature </h1>
+                <hr class="description-hr"/>
+                <img src="Fig1.png" alt="Max Temperature Graph" id="images-2"/>
+                <p>Temperature and latitude are strongly correlated. As seen above, temperatures increase while approaching the equator. </p>
+              </article>
+            </div>
+    
+            <div class="col-md-4">
+                <section class="Viz" id="imageNav-area">
+                  <h2 class="imageNav-header">Visualizations</h2>
+                  <hr class="description-hr"/>
+
+                                             
+                
+                    <a target="_blank" href="">
+                      <img src="Fig1.png" class="imageNav-photo imageNav-photo-active" alt="Latitude vs. Max Temperature" > 
+                    </a>
+                
+                    <a target="_blank" href="humidity.html" >
+                      <img src="Fig2.png" class="imageNav-photo" alt="Latitude vs. Humidity">
+                    </a>
+
+                    <a target="_blank" href="cloudiness.html" >
+                      <img src="Fig3.png" class="imageNav-photo" alt="Latitude vs. Cloudiness">
+                    </a>
+        
+                    <a target="_blank" href="wind_speed.html" >
+                      <img src="Fig4.png" class="imageNav-photo" alt="Latitude vs. Wind Speed">
+                    </a>
+                </section>
+                </div>   
+      
+      </div>
+    </section>
+
+  </div>
+
+
+<!-- Footer  -->
+<footer class="footer navbar-fixed-bottom">
+  <div class="two-toned-footer-color"></div>
+  <p class="text-muted text-muted-footer text-center">
+    &copy; Copyright Coding Bootcamp 2017
+  </p>
+</footer>
+<!-- End of footer -->
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>'
+
+
+
+</body>
+</html>
